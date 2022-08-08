@@ -12,7 +12,7 @@ public class createDirsAndFiles {
             else
                 progFiles.mkdirs();
 
-            File settingsFile = new File("progFiles/settings.conf");
+            File settingsFile = new File("progFiles/setting.conf");
             if (settingsFile.createNewFile()) {
                 System.out.println("File created: " + settingsFile.getName());
             } else {
